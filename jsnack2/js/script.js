@@ -4,6 +4,17 @@ console.log('JS OK!')
 Dividi in due array separati le zucchine che misurano meno o più di 15cm.
 Infine stampa separatamente quanto pesano i due gruppi di zucchine. */
 
+// creo 2 array vuoti dove inserire quelle più corte e quelle più lunghe di 15cm
+
+const zucchineCorte = [];
+
+console.log(zucchineCorte);
+
+
+const zucchineLunghe = [];
+
+console.log(zucchineLunghe);
+
 
 // creo 10 oggetti come zucchine 
 const zucchNera = {
@@ -11,7 +22,7 @@ const zucchNera = {
 
     peso: 45, // grammi
 
-    lunghezza: 15 // cm
+    lunghezza: 9 // cm
 };
 
 // Zucchina romanesca
@@ -95,3 +106,26 @@ const zucchCrook = {
     lunghezza: 19  // cm
 };
 
+
+// prendo la lunghezza di ogni oggetto
+
+
+addObjToArray(zucchCrook);
+
+addObjToArray(zucchFiore);
+
+addObjToArray(zucchFriul);
+
+addObjToArray(zucchGialla);
+
+addObjToArray(zucchNapoli);
+
+addObjToArray(zucchNera);
+
+addObjToArray(zucchPatis);
+
+addObjToArray(zucchRoma);
+
+addObjToArray(zucchTonda);
+
+addObjToArray(zucchTromb);
