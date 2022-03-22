@@ -107,8 +107,7 @@ const zucchCrook = {
 };
 
 
-// prendo la lunghezza di ogni oggetto
-
+// aggiungo gli oggetti ai due array in base alla lunghezza
 
 addObjToArray(zucchCrook);
 
@@ -129,3 +128,13 @@ addObjToArray(zucchRoma);
 addObjToArray(zucchTonda);
 
 addObjToArray(zucchTromb);
+
+// calcolo la somma del peso di ogni array
+
+const pesoTotaleCorte = calculTotalWeight(zucchineCorte);
+
+console.log('le zucchine corte pesano: ', pesoTotaleCorte + 'kg');
+
+const pesoTotaleLunghe = calculTotalWeight(zucchineLunghe);
+
+console.log('le zucchine lunghe pesano: ', pesoTotaleLunghe + 'kg');
