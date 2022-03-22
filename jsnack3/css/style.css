@@ -5,7 +5,23 @@
     font-family: sans-serif;
 }
 
+body{
+    background-color: lightgreen;
+}
 /* UTILITIES */
 
 
 /* CONTENT  */ 
+
+#container{
+    width: 60%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+#container .reverse-word{
+    background-color: gray;
+    color: greenyellow;
+    padding: 23px 22px;
+    border-radius: 30px;
+}

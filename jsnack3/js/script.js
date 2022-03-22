@@ -15,3 +15,7 @@ function reverseString(stringa) {
     return stringa.split("").reverse().join("");
 
 }
+
+const container = document.getElementById('container');
+
+container.innerHTML = `<h1 class="reverse-word"> ${parolaGirata} </h1>`;
