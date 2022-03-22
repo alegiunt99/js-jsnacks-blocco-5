@@ -102,3 +102,6 @@ const zuchinisGroup = [
 console.table(zuchinisGroup);
 // devo fare la somma del peso di tutte le zucchine
 
+const totWeight = calculTotalWeight(zuchinisGroup);
+
+console.log('il peso totale delle zucchine è:', totWeight);
